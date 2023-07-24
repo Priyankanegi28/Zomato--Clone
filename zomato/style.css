@@ -1,0 +1,224 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	width: 100%;
+	
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.header{
+	position: relative;
+	height: 420px;
+	margin-bottom: 10vh;
+}
+.image-container{
+	position: relative;
+	width: 100%;
+	height: 420px;
+
+}
+.image-container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.header-body-section{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	color: white;
+	
+}
+.nav{
+	font-weight: 550;
+	height: 50px;
+}
+.container-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logoContainer{
+	display: flex;
+	align-items: center;
+}
+.logoContainer p{
+	padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+	padding: 0px 3px;
+	margin-right: 25px;
+	font-size: 20px;
+	font-weight: 100;
+}
+.nav ul li a{
+	color: inherit;
+	text-decoration: none;
+
+}
+.zomato-logo{
+	width: 300px;
+
+
+}
+.container-header-body{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	 height: 420px;
+	 flex-direction: column;
+}
+.header-body-content{
+	position: relative;
+	top: -50px;
+
+}
+.header-body-section-discover{
+	font-size: 40px;
+	margin: 25px;
+}
+.search-container{
+	background-color: white;
+	width: 100%;
+	height: 55px;
+	max-width: 760px;
+	border-radius: 10px;
+	display: flex;
+	padding: 7px;
+	align-items: center;
+	color: black;
+}
+.location-map{
+	color: rgd;
+	font-size: 22px;
+}
+.detectionLocation input{
+   border: none;
+   font-size: 18px;
+   width: 200px;
+}
+.line{
+	padding: 10px;
+}
+.search-item input{
+	width: 450px;
+	font-size: 20px;
+	border: none;
+	outline: none;
+
+}
+.sec-1{
+	display: flex;
+	justify-content: center;
+	margin: 13vh;
+}
+.box{
+	position: relative;
+	width: 265px;
+	margin: 3px 5px;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 0 1px 2px gray;
+	background-color: rgb(243, 240, 240);
+
+}
+.box img{
+	width: 100%;
+	border-radius: 15px;
+	border: 1px solid rgb(204, 203, 203);
+	z-index: -1;
+}
+.white{
+	position: absolute;
+	bottom: 3px;
+	align-items: center;
+	border-radius: 0 0 15px 15px;
+	background-color: white;
+	width: 100%;
+	height: 25%;
+	z-index: 2;
+
+}
+.white span{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1em;
+	color: rgb(56, 56, 56);
+	letter-spacing: 0.7px;
+
+}
+.first img{
+	width: 128px;
+	height: 32px;
+}
+.sec-7{
+	padding: 40px 120px;
+	background-color: rgb(244, 244, 253);
+}
+.first{
+	display: flex;
+	justify-content: space-between;
+
+}
+.first-1{
+	display: flex;
+}
+.first-1 span{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-right: 20px;
+	font-weight: 400px;
+}
+.second{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 0;
+
+}
+.second div{
+	width: 200px;
+}
+.second h4{
+	font-weight: lighter;
+	color: rgb(22, 22, 22);
+	white-space: nowrap;
+}
+.second a{
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 7px;
+	white-space: nowrap;
+	text-decoration: none;
+	color: gray;
+	font-size: 0.9rem;
+}
+.second img{
+	width: 137px;
+	height: 40px;
+	margin-top: 11px;
+	cursor: pointer;
+}
+.box-4{
+	display: flex;
+	flex-direction: column;
+}
+.box-4 i{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.third{
+	padding: 10px 0;
+	color: gray;
+	font-size: 0.9rem;
+
+}
